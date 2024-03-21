@@ -1,5 +1,5 @@
 ---
-name: I will develop a new function.
+name: I will develop a new feature.
 about: It's an issue of developing new features.
 title: "[FEAT]"
 labels: feature
