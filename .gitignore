@@ -19,3 +19,9 @@
 
 # Go workspace file
 go.work
+
+# Macbook ignore
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
