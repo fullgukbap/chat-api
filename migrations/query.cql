@@ -7,6 +7,14 @@ CREATE TABLE user (
     PRIMARY KEY (user_id)
 );
 
+CREATE TABLE chat_history (
+    user_id varchar,
+    writed_at timestamp,
+    content varchar,
+
+    PRIMARY KEY(user_id, writed_at)
+);
+
 -- INSERT INTO user (user_id, name, password) VALUES (1, "JunBUm", "1234");
 -- SELECT * FROM users WHERE user_id;
 -- UPDATE user SET name = "sexy" WHERE id = 1;
